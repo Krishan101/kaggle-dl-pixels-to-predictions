@@ -1,0 +1,28 @@
+{
+  "experiment": "lora_r16_lr0.0002_sanity_ep1",
+  "val_accuracy": 0.5333969465648855,
+  "zero_shot_baseline": 0.5563,
+  "ta_baseline": 0.6781,
+  "time_seconds": 1925.8601009845734,
+  "per_subject": {
+    "language science": 0.32142857142857145,
+    "natural science": 0.5353925353925354,
+    "social science": 0.551440329218107
+  },
+  "per_num_choices": {
+    "2": 0.680327868852459,
+    "3": 0.49015748031496065,
+    "4": 0.5317460317460317,
+    "5": 0.22727272727272727
+  },
+  "config": {
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lr": 0.0002,
+    "epochs": 1,
+    "batch_size": 4,
+    "grad_accum": 4,
+    "train_stage": "sanity",
+    "train_samples": 200
+  }
+}

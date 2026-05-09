@@ -1,0 +1,50 @@
+{
+  "phase": "phase0_zero_shot",
+  "model": "HuggingFaceTB/SmolVLM-500M-Instruct",
+  "best_prompt_style": "default",
+  "prompt_comparison": {
+    "default": {
+      "accuracy": 0.38,
+      "time_seconds": 143.85641241073608,
+      "num_samples": 100
+    },
+    "direct": {
+      "accuracy": 0.32,
+      "time_seconds": 98.87043642997742,
+      "num_samples": 100
+    },
+    "no_context": {
+      "accuracy": 0.24,
+      "time_seconds": 94.5237488746643,
+      "num_samples": 100
+    }
+  },
+  "full_val_accuracy": 0.5562977099236641,
+  "full_val_total": 1048,
+  "full_val_correct": 583,
+  "inference_time_seconds": 1394.283807516098,
+  "batch_size": 16,
+  "per_subject": {
+    "language science": 0.4642857142857143,
+    "natural science": 0.5508365508365508,
+    "social science": 0.5843621399176955
+  },
+  "per_grade": {
+    "grade1": 1.0,
+    "grade10": 0.0,
+    "grade12": 0.25,
+    "grade2": 0.6111111111111112,
+    "grade3": 0.5566037735849056,
+    "grade4": 0.5988372093023255,
+    "grade5": 0.680672268907563,
+    "grade6": 0.5260416666666666,
+    "grade7": 0.554945054945055,
+    "grade8": 0.48917748917748916
+  },
+  "per_num_choices": {
+    "2": 0.6270491803278688,
+    "3": 0.5511811023622047,
+    "4": 0.5634920634920635,
+    "5": 0.18181818181818182
+  }
+}
