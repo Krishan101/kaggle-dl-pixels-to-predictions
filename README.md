@@ -1,8 +1,11 @@
 # Pixels-to-Predictions: Multi-Modal Science Question Answering with SmolVLM
 
-**Team:** Ananya Nadig and Krishan Kumar Gupta
+**Team:** Ananya and Krishan
+
 **Competition:** Pixels-to-Predictions (Kaggle Deep Learning Final Competition)
+
 **Base Model:** `HuggingFaceTB/SmolVLM-500M-Instruct`
+
 **Final Best Leaderboard Score:** **0.88933** (`sub_score_average.csv`)
 
 ---
