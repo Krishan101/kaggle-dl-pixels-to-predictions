@@ -1,0 +1,11 @@
+transformers==4.57.1
+peft==0.18.0
+bitsandbytes>=0.45.0
+accelerate>=1.7.0
+pandas==2.2.2
+Pillow==11.3.0
+tqdm
+torch>=2.0
+kagglehub
+numpy
+scikit-learn
